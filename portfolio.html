@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css"  href= "style.css"/>
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">    
+</head>
+<body>
+    <section>
+      <div class="transition">
+        <div class="cover cover1"></div>
+        <div class="cover cover2"></div>
+        <div class="cover cover3"></div>
+      </div>
+        <h1>Welcome</h1>
+        <div class="loading loading08">
+          <span data-text="T">T</span>
+          <span data-text="H">H</span>
+          <span data-text="I">I</span>
+          <span data-text="S" style="right:20px;">S </span>
+          <span data-text="I">I</span>
+          <span data-text="S">S </span><br>
+          <span data-text="S">S</span>
+          <span data-text="I">I</span>
+          <span data-text = "V">V</span>
+          <span data-text = "A">A</span>
+          <span data-text = "R">R</span>
+          <span data-text = "A">A</span>
+          <span data-text = "M">M</span>
+          <span data-text = "A">A</span>
+          <span data-text = "K">K</span>
+          <span data-text="R">R</span>
+          <span data-text="I">I</span>
+          <span data-text="S">S</span>
+          <span data-text = "H">H</span>
+          <span data-text="N">N</span>
+          <span data-text="A">A</span>
+          <span data-text="N">N</span>
+        </div>
+        <a href="home.html" class="link">View Portfolio</a>
+      </section>
+      <script type="text/javascript">
+        const link = document.querySelector(".link");
+  const transition = document.querySelector(".transition");
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    transition.classList.add("slide");
+    setTimeout(() => {
+      window.location = link.href;
+    }, 900);
+  });
+      </script>
+</body>
+</html>
