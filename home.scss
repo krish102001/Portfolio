@@ -40,7 +40,8 @@
     color: white;
   }
   .container{
-    margin : 0px;
+    display:flex;
+    justify-content: flex-end;
   }
   h1,
   h2 {
