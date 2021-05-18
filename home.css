@@ -44,6 +44,10 @@ body {
   color: white;
 }
 
+.container {
+  margin: 0px;
+}
+
 h1,
 h2 {
   font-family: 'Raleway', sans-serif;
@@ -116,6 +120,7 @@ nav a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  right: 0px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -140,7 +145,6 @@ nav a:hover {
 
 .projects {
   text-align: center;
-  margin: 0rem;
   padding: 10rem 2rem;
   background: #45567d;
 }
